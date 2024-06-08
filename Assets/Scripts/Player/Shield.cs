@@ -22,6 +22,7 @@ public class Shield : MonoBehaviour
             {
                 GameObject.Find("Player").GetComponent<Player>().shieldCooldown.StartCooldown();
                 GameObject.Find("Player").GetComponent<Player>().canUseShield = true;
+                GameObject.Find("Player").GetComponent<Player>()._isShieldActive = false;
                 Destroy(gameObject);
             }
         }

@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public int healthPoints = 10;
     public int pointsToPlayer = 5;
     public GameObject heal;
+    public bool tookDamage;
 
     private void Update()
     {
@@ -20,6 +21,7 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "PlayerProjectile")
         {
             this.healthPoints -= 1;
+            TookDamage();
             Destroy(other.gameObject);
 
             if (healthPoints <= 0)
@@ -40,4 +42,11 @@ public class Enemy : MonoBehaviour
             Instantiate(heal, transform.position, Quaternion.identity);
         }
     }
+    public void TookDamage()
+    {
+        tookDamage = true;
+        Invoke("SetTookDamageFalse", 0.15f);
+        //SoundManager.Instance.TocarSFX(2); Talvez eu colkoque som pra isso
+    }
+    public void SetTookDamageFalse() => tookDamage = false;
 }

@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 7593361237380088315}
   - component: {fileID: 8263671278287190609}
   - component: {fileID: 5681444253973219440}
+  - component: {fileID: -7105238603097536988}
   m_Layer: 0
   m_Name: F22EnemySingleShoot
   m_TagString: Enemy
@@ -219,6 +220,7 @@ MonoBehaviour:
   healthPoints: 3
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  tookDamage: 0
 --- !u!114 &459986386126127146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,3 +302,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6908765812303245560, guid: 5d65002a21bc34e41bea3664ac584f50, type: 3}
+--- !u!114 &-7105238603097536988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641307026796767059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e868e10ca8b2fa14da31f62dd71cd1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 0}
+  originColor: {r: 0, g: 0, b: 0, a: 0}
+  flashTime: 0.15
+  player: {fileID: 0}
+  enemy: {fileID: 668574161735291517}
+  isPlayer: 0

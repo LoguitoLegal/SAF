@@ -237,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 059d1ba05d66d334b89b790b08bfda74, type: 2}
     - target: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       propertyPath: m_Name
-      value: Helicoptero (4)
+      value: HelicopteroDireita
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       propertyPath: m_TagString
@@ -275,6 +275,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 38027734310385899}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5817700349649063549}
     - targetCorrespondingSourceObject: {fileID: -5606911109294317588, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3855884659081066211}
@@ -304,6 +307,7 @@ MonoBehaviour:
   healthPoints: 8
   pointsToPlayer: 10
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  tookDamage: 0
 --- !u!114 &2673352162871932284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +406,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 4.293514}
   m_Center: {x: -0, y: 0, z: -0.48944783}
+--- !u!114 &-5817700349649063549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825842251039103935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e868e10ca8b2fa14da31f62dd71cd1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 7213436539743634574}
+  originColor: {r: 0, g: 0, b: 0, a: 0}
+  flashTime: 0.15
+  player: {fileID: 0}
+  enemy: {fileID: 2261849720187110211}
+  bombPlane: {fileID: 0}
+  isPlayer: 0
+  isEnemy: 0
+  isBoss: 0
 --- !u!1 &3856439155255867650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5606911109294317588, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
@@ -419,4 +444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49f00bca5cf70b4bb6a9bcb5e744535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 850
+  rotationSpeed: 1400
+  planeMode: 0
+--- !u!23 &7213436539743634574 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2040178289355333024, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
+  m_PrefabInstance: {fileID: 555230244596672238}
+  m_PrefabAsset: {fileID: 0}
