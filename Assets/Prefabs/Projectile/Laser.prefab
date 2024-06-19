@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0433, y: 0.3253, z: 0.42}
-  m_LocalScale: {x: 2.08, y: 0.06, z: 0}
+  m_LocalScale: {x: 0, y: 0.06, z: 2.08}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753503108918013451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a552d2d9420ec94428db291eaf497043, type: 3}
   m_Name: 
@@ -162,3 +162,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   growthSpeed: 0.12
   maxLaserSize: 0.08
+  isBossDrone: 0

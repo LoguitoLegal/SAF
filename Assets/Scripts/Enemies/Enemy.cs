@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
     private void Chance()
     {
         int chance = Random.Range(0, 100);
-        if (chance < 30)
+        if (chance < 23)
         {
             Instantiate(heal, transform.position, Quaternion.identity);
         }

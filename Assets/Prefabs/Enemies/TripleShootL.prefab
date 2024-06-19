@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 8199982726960072615}
   - component: {fileID: 3418065903095551820}
   - component: {fileID: 6104671043229623991}
+  - component: {fileID: 4748167528217858160}
   m_Layer: 0
   m_Name: TripleShootL
   m_TagString: Enemy
@@ -188,6 +189,7 @@ MonoBehaviour:
   healthPoints: 2
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  tookDamage: 0
 --- !u!54 &3498022039103554809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -270,6 +272,18 @@ MonoBehaviour:
   curveDistance: 0.24
   speed: 0.35
   rotationSpeed: 0.92
+--- !u!114 &4748167528217858160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455926648650606133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3926a426a35044bb0d9699ea051b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7360846079271612618
 GameObject:
   m_ObjectHideFlags: 0
