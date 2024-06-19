@@ -5,6 +5,7 @@ using UnityEngine;
 public class Helice : MonoBehaviour
 {
     public float rotationSpeed = 30f;
+    public bool planeMode;
     void Update()
     {
         Girar();
@@ -12,6 +13,14 @@ public class Helice : MonoBehaviour
 
     public void Girar()
     {
-        transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+        if (!planeMode)
+        {
+            transform.Rotate(0f, 0f, -rotationSpeed * Time.deltaTime);
+
+        }
+        else
+        {
+            transform.Rotate(0f, -rotationSpeed * Time.deltaTime, 0f);
+        }
     }
 }

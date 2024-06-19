@@ -9,10 +9,14 @@ public class HelicopterShoot : MonoBehaviour
     [SerializeField] private Transform ShootPointLeft;
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private Cooldown Cooldown;
-
+    [SerializeField] private Renderer render;
+    private void Start()
+    {
+        render = GetComponent<Renderer>();
+    }
     void Update()
     {
-        if (transform.position.x >= -0.639 && transform.position.x <= 0.639)
+        if (render.isVisible)
         {
             if (!Cooldown.IsCoolingDown())
             {

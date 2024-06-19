@@ -11,6 +11,9 @@ TagManager:
   - Heal
   - Laser
   - Missile
+  - Flare
+  - BossGun
+  - Boss
   layers:
   - Default
   - TransparentFX

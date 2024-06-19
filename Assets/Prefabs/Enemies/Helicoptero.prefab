@@ -275,6 +275,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2337621002498263983}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6129656902771071571}
     - targetCorrespondingSourceObject: {fileID: -5606911109294317588, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4536809263073626940}
@@ -304,6 +307,7 @@ MonoBehaviour:
   healthPoints: 4
   pointsToPlayer: 10
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  tookDamage: 0
 --- !u!114 &511809192583282297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +406,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 4.293514}
   m_Center: {x: -0, y: 0, z: -0.48944783}
+--- !u!114 &-6129656902771071571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681422236277701981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e868e10ca8b2fa14da31f62dd71cd1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 7357290383399559788}
+  originColor: {r: 0, g: 0, b: 0, a: 0}
+  flashTime: 0.15
+  player: {fileID: 0}
+  enemy: {fileID: 2123006750645618728}
+  bombPlane: {fileID: 0}
+  isPlayer: 0
+  isEnemy: 0
+  isBoss: 0
 --- !u!1 &4000828375084916704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5606911109294317588, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
@@ -419,4 +444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49f00bca5cf70b4bb6a9bcb5e744535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 850
+  rotationSpeed: 1400
+  planeMode: 0
+--- !u!23 &7357290383399559788 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2040178289355333024, guid: 2c9e0076eeca479489a6d1bb2f9cd7c7, type: 3}
+  m_PrefabInstance: {fileID: 411389114117472268}
+  m_PrefabAsset: {fileID: 0}

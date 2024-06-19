@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 6763262749994226290}
   - component: {fileID: 7425464737302539106}
   - component: {fileID: 3872881090911904274}
+  - component: {fileID: 76534510200510450}
   m_Layer: 0
   m_Name: F22EnemyTripleShootL
   m_TagString: Enemy
@@ -240,6 +241,7 @@ MonoBehaviour:
   healthPoints: 2
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  tookDamage: 0
 --- !u!114 &7425464737302539106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +259,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1813562799756545575, guid: 9890a526fa2e183409aa3d1a2845de7f, type: 3}
   firePoint: {fileID: 1328870926636030079}
   spreadAngle: 20.7
-  projectileSpeed: 30
+  projectileSpeed: 40.1
 --- !u!114 &3872881090911904274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,3 +275,24 @@ MonoBehaviour:
   curveDistance: 0.15
   speed: 0.35
   rotationSpeed: 1.19
+--- !u!114 &76534510200510450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698136010997953380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e868e10ca8b2fa14da31f62dd71cd1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 0}
+  originColor: {r: 0, g: 0, b: 0, a: 0}
+  flashTime: 0.15
+  player: {fileID: 0}
+  enemy: {fileID: 6763262749994226290}
+  bombPlane: {fileID: 0}
+  isPlayer: 0
+  isEnemy: 0
+  isBoss: 0
