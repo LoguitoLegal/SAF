@@ -9228,8 +9228,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
+  m_sharedMaterial: {fileID: -1300962448460828274, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9859,8 +9859,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 100
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
+  m_sharedMaterial: {fileID: -1300962448460828274, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9892,7 +9892,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -11489,8 +11489,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
+  m_sharedMaterial: {fileID: -1300962448460828274, guid: ac38b8f1630ff6d47a6147d4bf43667b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11522,7 +11522,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -15816,8 +15816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a0eec57c1a86b498697a0bb1f83c70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boss1: {fileID: 6619425509631750242}
-  result: {fileID: 0}
   endPanel: {fileID: 773308438}
   victoryPanel: {fileID: 2040450278}
   defeatPanel: {fileID: 1625600825}
@@ -15829,6 +15827,7 @@ MonoBehaviour:
   bossMusicID: 2
   transitionDuration: 4
   bombPlane: {fileID: 6619425509631750242}
+  militaryBuilding: {fileID: 0}
 --- !u!4 &1934673643
 Transform:
   m_ObjectHideFlags: 0

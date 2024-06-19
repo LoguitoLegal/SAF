@@ -60,17 +60,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemies\Bosses\MilitaryBuilding.cs" />
     <Compile Include="Assets\Scripts\Enemies\Helice.cs" />
     <Compile Include="Assets\Scripts\General\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\Drone.cs" />
     <Compile Include="Assets\Scripts\General\MapPercentage.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\Helicopter.cs" />
     <Compile Include="Assets\Scripts\Player\PointsBar.cs" />
+    <Compile Include="Assets\Scripts\Enemies\AntiAircraft.cs" />
     <Compile Include="Assets\Scripts\Enemies\TripleShot.cs" />
     <Compile Include="Assets\Scripts\General\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\LMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\LockAim.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyShoot.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DroneCaller.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DualShoot.cs" />
     <Compile Include="Assets\Scripts\Player\StatusController.cs" />
     <Compile Include="Assets\Scripts\Player\PowerUps.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\BombPlane.cs" />
@@ -80,6 +85,7 @@
     <Compile Include="Assets\Scripts\General\Startmenu.cs" />
     <Compile Include="Assets\Scripts\General\Missile.cs" />
     <Compile Include="Assets\Scripts\Enemies\DroneLaser.cs" />
+    <Compile Include="Assets\Scripts\General\DeleteWhenLeftBehind.cs" />
     <Compile Include="Assets\Scripts\Map\MapMove.cs" />
     <Compile Include="Assets\Scripts\Player\DamageFlash.cs" />
     <Compile Include="Assets\Scripts\General\GameManager.cs" />

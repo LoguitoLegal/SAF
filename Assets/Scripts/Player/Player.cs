@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 public class Player : MonoBehaviour
 {
@@ -58,7 +59,15 @@ public class Player : MonoBehaviour
         position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         rb = gameObject.GetComponent<Rigidbody>();
         animationComponent = gameObject.GetComponent<Animator>();
-        SoundManager.Instance.TocarBGMusic(1);
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SoundManager.Instance.TocarBGMusic(1);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            SoundManager.Instance.TocarBGMusic(3);
+        }
+        
     }
     private void Update()
     {
@@ -157,6 +166,7 @@ public class Player : MonoBehaviour
                 if (canTakeLaserDamage)
                 {
                     this.healthPoints -= 10;
+                    TookDamage();
                     canTakeLaserDamage = false;
                     laserDamageCooldown.StartCooldown();
                 }

@@ -106,6 +106,7 @@ MonoBehaviour:
   followDelay: 0.76
   lifetime: 11.35
   isBossMissile: 1
+  lockYAxis: 1
 --- !u!54 &6956788057292935127
 Rigidbody:
   m_ObjectHideFlags: 0
