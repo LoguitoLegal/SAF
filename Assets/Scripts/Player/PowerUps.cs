@@ -9,6 +9,7 @@ public class PowerUps : MonoBehaviour
     // private bool canUpgrade = false;
     private int score;
     private int upgradeProgress = 0;
+    public bool shieldUnlocked = false;
 
     [Header("ICONS")]
     [SerializeField] private Image imageShootSpeed;
@@ -40,6 +41,7 @@ public class PowerUps : MonoBehaviour
         {
             player.GetComponent<Player>().canUseShield = true;
             IncreaseLevel();
+            shieldUnlocked = true;
             imageShield.color = Color.green;
         }
 
@@ -93,11 +95,11 @@ public class PowerUps : MonoBehaviour
             imageFlare.color = Color.green;
         }
         //Escudo
-        if (!player.GetComponent<Player>().canUseShield && upgradeProgress >= 2)
+        if (player.GetComponent<Player>().shieldCooldown.IsCoolingDown() && upgradeProgress >= 2 || player.GetComponent<Player>()._isShieldActive)
         {
             imageShield.color = Color.yellow;
         }
-        else if (player.GetComponent<Player>().canUseShield && upgradeProgress >= 2)
+        else if (!player.GetComponent<Player>().shieldCooldown.IsCoolingDown() && upgradeProgress >= 2)
         {
             imageShield.color = Color.green;
         }

@@ -12,8 +12,10 @@ public class GameManager : MonoBehaviour
     [Header("EndScreen")]
     private GameObject player;
     public BombPlane Boss1;
-    [SerializeField] private TMP_Text result;
     public GameObject endPanel;
+    public GameObject victoryPanel;
+    public GameObject defeatPanel;
+
     private Scene currentLevel;
 
     [Header("Power-Ups")]
@@ -29,7 +31,6 @@ public class GameManager : MonoBehaviour
     public BombPlane bombPlane;
     private bool isTransitioning = false;
 
-    //public GameObject enemy;
     void Start()
     {
         player = GameObject.Find("Player").gameObject;
@@ -37,7 +38,6 @@ public class GameManager : MonoBehaviour
         currentLevel = SceneManager.GetActiveScene();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Camera.main.transform.position.z >= bossPoint.position.z && !reachedBossPoint && !isTransitioning)
@@ -88,18 +88,15 @@ public class GameManager : MonoBehaviour
     private void OnWin()
     {
         Time.timeScale = 0f;
-        result.text = "VITÓRIA!";
-        result.color = Color.green;
         endPanel.SetActive(true);
-        this.player.GetComponent<Player>().points = 100;
+        victoryPanel.SetActive(true);
     }
 
     private void OnLose()
     {
         Time.timeScale = 0f;
-        result.text = "DERROTA...";
-        result.color = Color.red;
         endPanel.SetActive(true);
+        defeatPanel.SetActive(true);
         this.player.GetComponent<Player>().healthPoints = 0;
     }
 

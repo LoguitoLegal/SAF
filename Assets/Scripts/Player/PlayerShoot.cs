@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerShoot : MonoBehaviour
 {
     [Header("ETC")]
+    public bool shootOn = false;
     public float force;
     public float flareForce;
     public Player player;
     public int shootLevel;
     public float spreadAngle = 15f;
+    public Image shootImage;
 
     [Header("Transforms")]
     public Transform ShootPoint;
@@ -28,36 +31,45 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (!PauseMenu.isPaused) //If not Paused
+            shootOn = !shootOn;
+
+            if (shootOn)
             {
-                //Single Shot
-                if (!Cooldown.IsCoolingDown() && shootLevel == 0)
-                {
-                    Shoot(ShootPoint);
+                shootImage.color = Color.green;
+            } else
+            {
+                shootImage.color = Color.red;
+            }
+        }
 
-                    SoundManager.Instance.TocarSFX(5);
-                }
+        if (!PauseMenu.isPaused && shootOn) //If not Paused && can shoot
+        {
+            //Single Shot
+            if (!Cooldown.IsCoolingDown() && shootLevel == 0)
+            {
+                Shoot(ShootPoint);
 
-                //Tripe Shot Forward
-                else if (!Cooldown.IsCoolingDown() && shootLevel == 1)
-                {
+                SoundManager.Instance.TocarSFX(5);
+            }
 
-                    Shoot(ShootPointLeft);
+            //Tripe Shot Forward
+            else if (!Cooldown.IsCoolingDown() && shootLevel == 1)
+            {
 
-                    Shoot(ShootPointRight);
+                Shoot(ShootPointLeft);
 
-                    SoundManager.Instance.TocarSFX(5);
-                }
-                else if (!Cooldown.IsCoolingDown() && shootLevel == 2)
-                {
-                    FireTripeShot(ShootPoint);
+                Shoot(ShootPointRight);
 
-                    SoundManager.Instance.TocarSFX(5);
+                SoundManager.Instance.TocarSFX(5);
+            }
+            else if (!Cooldown.IsCoolingDown() && shootLevel == 2)
+            {
+                FireTripeShot(ShootPoint);
 
-                }
+                SoundManager.Instance.TocarSFX(5);
+
             }
         }
 
@@ -70,17 +82,19 @@ public class PlayerShoot : MonoBehaviour
 
     public void Shoot(Transform shootPoint)
     {
-        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
+        Vector3 spawnLocation = new Vector3(shootPoint.position.x, 1.24f, shootPoint.position.z);
+        GameObject projectile = Instantiate(projectilePrefab, spawnLocation, Quaternion.identity);
         projectile.GetComponent<Rigidbody>().AddForce(transform.right * force);
 
         Cooldown.StartCooldown();
     }
 
-    public void FireTripeShot(Transform shootpoint)
+    public void FireTripeShot(Transform shootPoint)
     {
         for (int i = 0; i < 3; i++)
         {
-            var projectile = Instantiate(projectilePrefab, shootpoint.position, shootpoint.rotation);
+            Vector3 spawnLocation = new Vector3(shootPoint.position.x, 1.24f, shootPoint.position.z);
+            var projectile = Instantiate(projectilePrefab, spawnLocation, shootPoint.rotation);
             projectile.transform.Rotate(0f, spreadAngle * (i - 1), 0f);
             projectile.transform.SetParent(null);
 

@@ -105,6 +105,7 @@ public class Missile : MonoBehaviour
 
         return closestFlare;
     }
+
     private IEnumerator EnableFollowingAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);

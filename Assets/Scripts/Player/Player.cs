@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public int healthPoints = 100;
     public int points = 0;
     public PointsBar pointsBar;
+    private bool imortality = false;
     public bool _tookDamage = false;
     public bool _canTakeDamage = true;
     public bool _isShieldActive = false;
@@ -27,6 +28,8 @@ public class Player : MonoBehaviour
     public float barrelRollForce;
     public float rotationSmooth = 2f; //Rotation
     public float tiltAngle = 30f; //Rotation
+    public float dashTime;
+    public float dashSpeed;
 
     [Header("Camera Limits")]
     public Transform cameraTransform;
@@ -38,57 +41,55 @@ public class Player : MonoBehaviour
     [Header("Others")]
     public bool canUseShield = false;
     public bool canUseFlare = false;
-    public GameObject shieldPrefab;
+    private bool canTakeLaserDamage = true;
+    public GameObject shield;
     public Cooldown shieldCooldown;
     public Cooldown laserDamageCooldown;
-    private bool canTakeLaserDamage = true;
+    public Cooldown barrelRollCooldown;
     public GameObject lockAim;
     public Transform playerModelTransform;
+    private Animator animationComponent;
+    private PowerUps powerUps;
 
     private void Start()
     {
         cameraTransform = Camera.main.transform;
+        powerUps = GetComponent<PowerUps>();
         position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         rb = gameObject.GetComponent<Rigidbody>();
+        animationComponent = gameObject.GetComponent<Animator>();
         SoundManager.Instance.TocarBGMusic(1);
     }
     private void Update()
     {
+        //Barrel roll
+        if (Input.GetKey(KeyCode.D) && Input.GetKeyDown(KeyCode.K) && !barrelRollCooldown.IsCoolingDown())
+        {
+            barrelRollCooldown.StartCooldown();
+            BarrelRoll();
+        }
+        else if (Input.GetKey(KeyCode.A) && Input.GetKeyDown(KeyCode.K) && !barrelRollCooldown.IsCoolingDown())
+        {
+            barrelRollCooldown.StartCooldown();
+            BarrelRoll();
+        }
+
         PlayerMove();
 
-        //Barrel roll
-        //if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.K))
-        //{
-        //    BarrelRoll(Vector3.right);
-        //}
-        //else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.K))
-        //{
-        //    BarrelRoll(Vector3.left);
-        //}
-
         //Shield
-        if (canUseShield && Input.GetKeyDown(KeyCode.J))
+        if (canUseShield && Input.GetKeyDown(KeyCode.J) && imortality == false)
         {
             if (!shieldCooldown.IsCoolingDown())
             {
-                Instantiate(shieldPrefab, gameObject.transform);
-                _isShieldActive = true;
-                Debug.Log("Shield Activated");
+                shield.SetActive(true);
                 canUseShield = false;
+                Debug.Log("Shield Activated");
             }
-            else
-            {
-                Debug.Log("Shield is in cooldown");
-            }
+        }
 
-        }
-        if (_isShieldActive)
+        if (!shieldCooldown.IsCoolingDown() && imortality == false && powerUps.shieldUnlocked == true)
         {
-            _canTakeDamage = false;
-        }
-        else
-        {
-            _canTakeDamage = true;
+            canUseShield = true;
         }
 
         //Laser Damage
@@ -139,21 +140,26 @@ public class Player : MonoBehaviour
 
     private void RotatePlayer(float horizontalInput)
     {
+
         float anguloAtual = transform.localEulerAngles.z;
         float anguloFinal = -Input.GetAxis("Horizontal") * tiltAngle;
         float lerpAngle = Mathf.LerpAngle(anguloAtual, anguloFinal, rotationSmooth * Time.deltaTime);
         playerModelTransform.localEulerAngles = new Vector3(0f, 90f, lerpAngle);
+
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Laser")
+        if (!imortality)
         {
-
-            if (canTakeLaserDamage)
+            if (other.gameObject.tag == "Laser")
             {
-                this.healthPoints -= 10;
-                canTakeLaserDamage = false;
-                laserDamageCooldown.StartCooldown();
+
+                if (canTakeLaserDamage)
+                {
+                    this.healthPoints -= 10;
+                    canTakeLaserDamage = false;
+                    laserDamageCooldown.StartCooldown();
+                }
             }
         }
     }
@@ -213,10 +219,46 @@ public class Player : MonoBehaviour
         SoundManager.Instance.TocarSFX(2);
         Debug.Log("Tomou Dano");
     }
+
     public void SetTookDamageFalse() => _tookDamage = false;
 
-    void BarrelRoll(Vector3 direction)
+    void BarrelRoll()
     {
-        rb.AddForce(direction * barrelRollForce, ForceMode.Force);
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            animationComponent.Play("BarrelRollRight");
+            StartCoroutine(Dash(2));
+        }
+        else
+        {
+            animationComponent.Play("BarrelRoll");
+            StartCoroutine(Dash(2));
+        }
+    }
+
+    IEnumerator Dash(float speedMultiplier)
+    {
+        float originalSpeed = speed;
+
+        speed *= speedMultiplier;
+
+        yield return new WaitForSeconds(dashTime);
+
+        speed = originalSpeed;
+    }
+    
+    public void ToggleImmortality()
+    {
+        imortality = !imortality;
+
+        if (_isShieldActive)
+        {
+            shield.SetActive(false);
+
+        }
+            _canTakeDamage = !_canTakeDamage;
+
+        
+        canUseShield = !canUseShield;
     }
 }

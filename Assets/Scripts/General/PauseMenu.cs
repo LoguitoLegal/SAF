@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     public GameManager gameManager;
     public GameObject[] subMenus;
     public static bool isPaused;
+    private bool wentByCheat = false;
 
     void Update()
     {
@@ -75,5 +76,29 @@ public class PauseMenu : MonoBehaviour
     public void ButtonHover()
     {
         SoundManager.Instance.TocarSFX(0);
+    }
+
+    public void GoToBoss()
+    {
+        if (wentByCheat == false)
+        {
+            //Desativa todos os inimigos
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                enemies[i].SetActive(false);
+            }
+
+            //Teleporta
+            Vector3 teleport = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, GameObject.Find("BossPoint").transform.position.z);
+            Camera.main.transform.position = teleport;
+            wentByCheat = true;
+        }
+    }
+
+    public void UnlockAll()
+    {
+        GameObject.Find("Player").GetComponent<Player>().points = 9999;
     }
 }
