@@ -14,6 +14,7 @@ public class Missile : MonoBehaviour
     private Rigidbody rb;
     public bool isBossMissile;
     public bool lockYAxis;
+    public GameObject explosionPrefab;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -87,6 +88,8 @@ public class Missile : MonoBehaviour
             //Play Explosion Effect before Destroy
             //lockAim.SetActive(false);
             SoundManager.Instance.TocarSFX(9);
+            GameObject boom = Instantiate(explosionPrefab, transform.position, explosionPrefab.transform.rotation);
+            Destroy(boom, 0.8f);
             Destroy(gameObject);
         }
     }

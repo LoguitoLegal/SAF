@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public int pointsToPlayer = 5;
     public GameObject heal;
     public bool tookDamage;
+    public GameObject explosionPrefab;
     private Player player;
     private void Start()
     {
@@ -33,6 +34,8 @@ public class Enemy : MonoBehaviour
             player.points += this.pointsToPlayer;
             Chance();
             SoundManager.Instance.TocarSFX(4);
+            GameObject boom = Instantiate(explosionPrefab, transform.position, explosionPrefab.transform.rotation);
+            Destroy(boom, 0.8f);
             Destroy(gameObject);
         }
     }

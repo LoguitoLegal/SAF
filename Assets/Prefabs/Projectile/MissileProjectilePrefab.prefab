@@ -4938,6 +4938,7 @@ MonoBehaviour:
   lifetime: 11.35
   isBossMissile: 1
   lockYAxis: 1
+  explosionPrefab: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
 --- !u!54 &6956788057292935127
 Rigidbody:
   m_ObjectHideFlags: 0

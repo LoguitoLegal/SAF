@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.43685928, g: 0.48450607, b: 0.56476295, a: 1}
+  m_IndirectSpecularColor: {r: 0.43685943, g: 0.4845068, b: 0.56476337, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18115,6 +18115,7 @@ MonoBehaviour:
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
   tookDamage: 0
+  explosionPrefab: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
 --- !u!114 &7286929630831129917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18209,6 +18210,7 @@ MonoBehaviour:
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
   tookDamage: 0
+  explosionPrefab: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
 --- !u!114 &7597840676666136743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18411,6 +18413,7 @@ MonoBehaviour:
   pointsToPlayer: 5
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
   tookDamage: 0
+  explosionPrefab: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
 --- !u!114 &8903394613948423305
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -315,6 +315,7 @@ MonoBehaviour:
   pointsToPlayer: 10
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
   tookDamage: 0
+  explosionPrefab: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
 --- !u!114 &2673352162871932284
 MonoBehaviour:
   m_ObjectHideFlags: 0

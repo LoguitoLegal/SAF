@@ -396,19 +396,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startBattle: 0
+  isPhaseTwo: 0
+  canTakeDamage: 0
+  battleEnd: 0
   health: 0
   speed: 0
+  tookDamage: 0
+  shootPointMiddle: {fileID: 0}
   shootPointL: {fileID: 0}
   shootPointR: {fileID: 0}
-  shootPointMiddle: {fileID: 0}
+  shootPointMissileR: {fileID: 0}
+  shootPointMissileL: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  missilePrefab: {fileID: 0}
+  bulletForce: 0
+  missileStartForce: 0
+  rotationSpeed: 0
   shootCooldown:
+    cooldownTime: 1
+  shootCooldownMiddle:
     cooldownTime: 1
   missileCooldown:
     cooldownTime: 1
+  cooldownToFirstMissile:
+    cooldownTime: 1
   playerPosition: {fileID: 0}
-  isPhaseTwo: 0
   gunLeft: {fileID: 5867685433394848660}
   gunRight: {fileID: 6754368929930597508}
+  gunMissile: {fileID: 421297538163424379, guid: f3df446feb0640b478e97bd54b20f138, type: 3}
+  weapons: []
 --- !u!1 &5867685433394848660
 GameObject:
   m_ObjectHideFlags: 0

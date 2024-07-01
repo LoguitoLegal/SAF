@@ -36,7 +36,6 @@ public class Drone : MonoBehaviour
         {
             if (delayController && !delay.IsCoolingDown())
             {
-                Debug.Log("Começou a andar");
                 if (!isBossDrone)
                 {
                     GetComponent<Parallax>().enabled = true;
