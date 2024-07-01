@@ -31,16 +31,13 @@ public class PinguinAnimator : MonoBehaviour
             if (isGood)
             {
                 image.sprite = spritesGood[index];
-                Debug.Log("Ta legal");
             }
             else if(isMedium)
             {
                 image.sprite = spritesMedium[index];
-                Debug.Log("Ta bonzão");
             }
             else if (isBad)
             {
-                Debug.Log("Ta ruim");
                 image.sprite = spritesBad[index];
             }
             

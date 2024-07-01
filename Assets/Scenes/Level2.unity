@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43685943, g: 0.4845068, b: 0.56476337, a: 1}
+  m_IndirectSpecularColor: {r: 0.43685928, g: 0.48450607, b: 0.56476295, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -808,7 +808,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: UnlockAll
         m_Mode: 1
@@ -876,7 +876,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -2739,7 +2739,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -2795,7 +2795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -2807,7 +2807,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -4290,7 +4290,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1785075879}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
         m_MethodName: ToggleImmortality
         m_Mode: 1
@@ -4302,7 +4302,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -6531,7 +6531,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -6587,7 +6587,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -6599,7 +6599,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -6838,7 +6838,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -6894,7 +6894,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -6906,7 +6906,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -7013,7 +7013,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -7069,7 +7069,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ActivateMenu
         m_Mode: 2
@@ -7081,7 +7081,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: DesactivateMenu
         m_Mode: 2
@@ -7093,7 +7093,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -7508,7 +7508,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -7564,7 +7564,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -7576,7 +7576,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -7954,7 +7954,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ActivateMenu
         m_Mode: 2
@@ -8022,7 +8022,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: DesactivateMenu
         m_Mode: 2
@@ -8034,7 +8034,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -8546,7 +8546,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -8602,7 +8602,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -8614,7 +8614,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -10826,7 +10826,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -10882,7 +10882,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ResumeGame
         m_Mode: 1
@@ -10894,7 +10894,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -13838,7 +13838,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -13894,7 +13894,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: DesactivateMenu
         m_Mode: 2
@@ -13906,7 +13906,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ActivateMenu
         m_Mode: 2
@@ -13918,7 +13918,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -14025,7 +14025,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -14081,7 +14081,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: DesactivateMenu
         m_Mode: 2
@@ -14093,7 +14093,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ActivateMenu
         m_Mode: 2
@@ -14105,7 +14105,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -14308,7 +14308,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -14364,7 +14364,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: GoToBoss
         m_Mode: 1
@@ -14376,7 +14376,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -14629,14 +14629,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1785075868}
   shieldUnlocked: 0
-  imageShootSpeed: {fileID: 0}
-  imageShootArea: {fileID: 0}
-  imageShield: {fileID: 0}
-  imageFlare: {fileID: 0}
-  imageTripleShoot: {fileID: 0}
-  enabledSprite: {fileID: 0}
-  inCooldownSprite: {fileID: 0}
-  disabledSprite: {fileID: 0}
+  imageShootSpeed: {fileID: 1138735322}
+  imageShootArea: {fileID: 1742663144}
+  imageShield: {fileID: 1956526991}
+  imageFlare: {fileID: 49867325}
+  imageTripleShoot: {fileID: 2114262515}
+  enabledSprite: {fileID: 21300000, guid: f04b691159d210741adac85096870b04, type: 3}
+  inCooldownSprite: {fileID: 21300000, guid: 9e54960f4b34d40488b4587a439c4b87, type: 3}
+  disabledSprite: {fileID: 21300000, guid: bf7b3165ce181934db7baad145509bc5, type: 3}
 --- !u!114 &1785075878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15294,7 +15294,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -15350,7 +15350,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -15362,7 +15362,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -16789,7 +16789,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -16845,7 +16845,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -16857,7 +16857,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -17821,7 +17821,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 17472895}
           m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
           m_MethodName: ButtonHover
           m_Mode: 1
@@ -17877,7 +17877,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 3
@@ -17889,7 +17889,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 17472895}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1

@@ -1,61 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\",
+  "WorkspaceRootPath": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|c:\\users\\1528839\\documents\\github\\saf\\assets\\scripts\\player\\pinguinanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pinguinanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|c:\\users\\1528839\\documents\\github\\saf\\assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|c:\\users\\1528839\\documents\\github\\saf\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\general\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\bosses\\militarybuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\bosses\\militarybuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bosses\\militarybuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dronecaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\dronecaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dronecaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\general\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dronelaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\dronelaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dronelaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\antiaircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\antiaircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\antiaircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dualshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\dualshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dualshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\player\\damageflash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\player\\damageflash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\damageflash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\bosses\\bombplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\enemies\\bosses\\bombplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bosses\\bombplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|C:\\Users\\1528839\\Documents\\GitHub\\SAF\\assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,106 +74,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PinguinAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:18:34.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PowerUps.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\PowerUps.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PowerUps.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\PowerUps.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PowerUps.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAowGoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T12:54:00.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SoundManager.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\SoundManager.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\SoundManager.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAMwCAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T23:26:30.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T23:26:30.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Projectile.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Projectile.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\Projectile.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T23:07:48.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T23:07:48.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAcwKgAAAAhAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAIwKgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T23:06:21.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DroneLaser.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DroneLaser.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\DroneLaser.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwBAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:56:42.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T22:56:42.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DroneCaller.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DroneCaller.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\DroneCaller.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:22:47.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T22:22:47.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MilitaryBuilding.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAA5wCgAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T19:03:16.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AntiAircraft.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T21:41:59.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T19:03:16.698Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "AntiAircraft.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:41:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,11 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DamageFlash.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\DamageFlash.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\DamageFlash.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAkwCwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,37 +217,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "DualShoot.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DualShoot.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\DualShoot.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T20:41:56.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T20:41:56.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Drone.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Drone.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Drone.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAgwDoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T19:39:56.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T19:39:56.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\PauseMenu.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\PauseMenu.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "BombPlane.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAowHAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,16 +265,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\GameManager.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
+              "ToolTip": "C:\\Users\\1528839\\Documents\\GitHub\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\GameManager.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAAAE0AAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:43:14.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T20:43:14.319Z"
             }
           ]
         }
