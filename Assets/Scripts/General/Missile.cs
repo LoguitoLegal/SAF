@@ -13,6 +13,7 @@ public class Missile : MonoBehaviour
     public float lifetime;
     private Rigidbody rb;
     public bool isBossMissile;
+    public bool lockYAxis;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -32,7 +33,10 @@ public class Missile : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position += Vector3.forward * Time.deltaTime * Camera.main.GetComponent<Parallax>().speed;
+        if (isBossMissile)
+        {
+            transform.position += Vector3.forward * Time.deltaTime * Camera.main.GetComponent<Parallax>().speed;
+        }
 
         if (canFollow && target != null)
         {
@@ -66,7 +70,7 @@ public class Missile : MonoBehaviour
     {
 
         Vector3 direction = target.transform.position - rb.position;
-        direction.y = 0f;
+        if (lockYAxis) { direction.y = 0f; }
         direction.Normalize();
 
         Vector3 amountToRotate = Vector3.Cross(direction, transform.forward) * Vector3.Angle(transform.forward, direction);

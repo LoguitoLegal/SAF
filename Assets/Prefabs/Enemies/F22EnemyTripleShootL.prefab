@@ -130,10 +130,11 @@ GameObject:
   - component: {fileID: 7425464737302539106}
   - component: {fileID: 3872881090911904274}
   - component: {fileID: 76534510200510450}
+  - component: {fileID: -7307615059605684244}
   m_Layer: 0
   m_Name: F22EnemyTripleShootL
   m_TagString: Enemy
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -296,3 +297,15 @@ MonoBehaviour:
   isPlayer: 0
   isEnemy: 0
   isBoss: 0
+--- !u!114 &-7307615059605684244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698136010997953380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3926a426a35044bb0d9699ea051b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

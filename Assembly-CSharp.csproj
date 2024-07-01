@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4B0748CD-89A2-4600-D24C-C15FC80E543E}</ProjectGuid>
+    <ProjectGuid>{E93CF64C-BF54-B157-56A7-37090D99E35C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,17 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemies\Bosses\MilitaryBuilding.cs" />
     <Compile Include="Assets\Scripts\Enemies\Helice.cs" />
     <Compile Include="Assets\Scripts\General\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Enemies\Drone.cs" />
     <Compile Include="Assets\Scripts\General\MapPercentage.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\Helicopter.cs" />
     <Compile Include="Assets\Scripts\Player\PointsBar.cs" />
+    <Compile Include="Assets\Scripts\Enemies\AntiAircraft.cs" />
+    <Compile Include="Assets\Scripts\Player\PinguinAnimator.cs" />
     <Compile Include="Assets\Scripts\Enemies\TripleShot.cs" />
     <Compile Include="Assets\Scripts\General\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\LMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\LockAim.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyShoot.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DroneCaller.cs" />
+    <Compile Include="Assets\Scripts\Enemies\DualShoot.cs" />
     <Compile Include="Assets\Scripts\Player\StatusController.cs" />
     <Compile Include="Assets\Scripts\Player\PowerUps.cs" />
     <Compile Include="Assets\Scripts\Enemies\Bosses\BombPlane.cs" />
@@ -80,6 +86,7 @@
     <Compile Include="Assets\Scripts\General\Startmenu.cs" />
     <Compile Include="Assets\Scripts\General\Missile.cs" />
     <Compile Include="Assets\Scripts\Enemies\DroneLaser.cs" />
+    <Compile Include="Assets\Scripts\General\DeleteWhenLeftBehind.cs" />
     <Compile Include="Assets\Scripts\Map\MapMove.cs" />
     <Compile Include="Assets\Scripts\Player\DamageFlash.cs" />
     <Compile Include="Assets\Scripts\General\GameManager.cs" />
@@ -1050,6 +1057,10 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">

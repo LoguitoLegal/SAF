@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: 94182aa4c6bb8b049a040a0b9e6a8ffb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcddfdc8240a5f4990ddbb606516486
+      internalID: -2085518775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4727076d492e92d4e9757b3b86241f1b
+      internalID: 1171959870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554a1c05233739743bbd3482c15b3186
+      internalID: 1841467192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c117db00f6eec94d956b333ea6c54bc
+      internalID: -581744796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09081015cc3ebe45b72308aae8e4d4e
+      internalID: 575741525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e777c75dd293e46b1a5d8c477c5c99
+      internalID: -2118972161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f30a2bf6def43b40ad518e4a4e4952b
+      internalID: -1649064964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceca51bcf9d366840a5b8dea3c1c47e6
+      internalID: 1232635320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_8
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38395b491c664304096b8abea92c958d
+      internalID: -1508649796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc770585ea7c0464dba7e91bcdbe022b
+      internalID: -234538062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_10
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db02a6f8686a094aa097b38f980b9dd
+      internalID: 486269825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_11
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e345b04b76096164aa38d59db4a44175
+      internalID: 1686201584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b015ed12add9b934ca1051787518d922
+      internalID: -1764562674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8710cfba4dfc1bd42ab3ac5a07e9de22
+      internalID: -1900608874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f02122c898afec4c8b7886ec5b7e9e4
+      internalID: -1545227802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_15
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7e635f474872f4e98e792fe20ab9b4
+      internalID: 285163869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_16
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb734bcabef4c7345a6d2b4430e2baad
+      internalID: -1755002962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_17
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12eb074865a317459ae1ffc7183f266
+      internalID: -559987920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f300f3da0750e45b89c790b48e1722
+      internalID: 1771423499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca793fab43de31f4b8d05f3c73cf54e1
+      internalID: -1639987024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae034c8dc93a2a4d95e41e1a09fd45c
+      internalID: -1103360982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_21
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6716d061be198a42a7d11ca337b088d
+      internalID: 297868327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_22
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49d1e2e8af1c3d4695de884e600bf06
+      internalID: -709062927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_23
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9516833b1437fd0439ac00cdc34b1dc1
+      internalID: -1178508025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0d46e3d36c36e43bad594570165134
+      internalID: -20656125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a7e61f2785504caad2d7c99354469
+      internalID: 1420302584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_26
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75794dc5a360a245af9599b8f302ee5
+      internalID: -1496778462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c18424547c6874dba946bee5e92ead
+      internalID: 760714176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efd6e37682486b4283daeef0ecab913
+      internalID: -557050077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaMediaPinguinSprite_29
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427ded7bb11e9c843b4364287b2c464d
+      internalID: -1306411449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 35178b51660b2e844bbddcd48ff6853f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vidaMediaPinguinSprite_0: -2085518775
+      vidaMediaPinguinSprite_1: 1171959870
+      vidaMediaPinguinSprite_10: 486269825
+      vidaMediaPinguinSprite_11: 1686201584
+      vidaMediaPinguinSprite_12: -1764562674
+      vidaMediaPinguinSprite_13: -1900608874
+      vidaMediaPinguinSprite_14: -1545227802
+      vidaMediaPinguinSprite_15: 285163869
+      vidaMediaPinguinSprite_16: -1755002962
+      vidaMediaPinguinSprite_17: -559987920
+      vidaMediaPinguinSprite_18: 1771423499
+      vidaMediaPinguinSprite_19: -1639987024
+      vidaMediaPinguinSprite_2: 1841467192
+      vidaMediaPinguinSprite_20: -1103360982
+      vidaMediaPinguinSprite_21: 297868327
+      vidaMediaPinguinSprite_22: -709062927
+      vidaMediaPinguinSprite_23: -1178508025
+      vidaMediaPinguinSprite_24: -20656125
+      vidaMediaPinguinSprite_25: 1420302584
+      vidaMediaPinguinSprite_26: -1496778462
+      vidaMediaPinguinSprite_27: 760714176
+      vidaMediaPinguinSprite_28: -557050077
+      vidaMediaPinguinSprite_29: -1306411449
+      vidaMediaPinguinSprite_3: -581744796
+      vidaMediaPinguinSprite_4: 575741525
+      vidaMediaPinguinSprite_5: -2118972161
+      vidaMediaPinguinSprite_6: -1649064964
+      vidaMediaPinguinSprite_7: 1232635320
+      vidaMediaPinguinSprite_8: -1508649796
+      vidaMediaPinguinSprite_9: -234538062
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

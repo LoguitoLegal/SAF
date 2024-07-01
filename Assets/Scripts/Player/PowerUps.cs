@@ -17,6 +17,9 @@ public class PowerUps : MonoBehaviour
     [SerializeField] private Image imageShield;
     [SerializeField] private Image imageFlare;
     [SerializeField] private Image imageTripleShoot;
+    [SerializeField] private Sprite enabledSprite;
+    [SerializeField] private Sprite inCooldownSprite;
+    [SerializeField] private Sprite disabledSprite;
     void Start()
     {
         player = GameObject.Find("Player").gameObject;
@@ -33,7 +36,7 @@ public class PowerUps : MonoBehaviour
             player.GetComponent<PlayerShoot>().force += 20;
             player.GetComponent<PlayerShoot>().Cooldown.SetCoolDownTime(0.2f);
             IncreaseLevel();
-            imageShootSpeed.color = Color.green;
+            imageShootSpeed.sprite = enabledSprite;
         }
 
         //Escudo
@@ -42,7 +45,7 @@ public class PowerUps : MonoBehaviour
             player.GetComponent<Player>().canUseShield = true;
             IncreaseLevel();
             shieldUnlocked = true;
-            imageShield.color = Color.green;
+            imageShield.sprite = enabledSprite;
         }
 
         //Tiro duplo
@@ -52,7 +55,7 @@ public class PowerUps : MonoBehaviour
             player.GetComponent<PlayerShoot>().force -= 20;
             player.GetComponent<PlayerShoot>().Cooldown.SetCoolDownTime(0.4f);
             IncreaseLevel();
-            imageShootArea.color = Color.green;
+            imageShootArea.sprite = enabledSprite;
         }
 
         //Flare
@@ -60,7 +63,7 @@ public class PowerUps : MonoBehaviour
         {
             player.GetComponent<Player>().canUseFlare = true;
             IncreaseLevel();
-            imageFlare.color = Color.green;
+            imageFlare.sprite = enabledSprite;
         }
 
         //Tiro triplo
@@ -70,7 +73,7 @@ public class PowerUps : MonoBehaviour
             player.GetComponent<PlayerShoot>().force += 20;
             player.GetComponent<PlayerShoot>().Cooldown.SetCoolDownTime(0.3f);
             IncreaseLevel();
-            imageTripleShoot.color = Color.green;
+            imageTripleShoot.sprite = enabledSprite;
         }
         //else if (score == 85 && upgradeProgress == 3)
         //{
@@ -87,21 +90,21 @@ public class PowerUps : MonoBehaviour
         if (player.GetComponent<PlayerShoot>().flareCooldown.IsCoolingDown() && upgradeProgress >= 4)
         {
             player.GetComponent<Player>().canUseFlare = false;
-            imageFlare.color = Color.yellow;
+            imageFlare.sprite = inCooldownSprite;
         }
         else if (!player.GetComponent<PlayerShoot>().flareCooldown.IsCoolingDown() && upgradeProgress >= 4) 
         {
             player.GetComponent<Player>().canUseFlare = true;
-            imageFlare.color = Color.green;
+            imageFlare.sprite = enabledSprite;
         }
         //Escudo
         if (player.GetComponent<Player>().shieldCooldown.IsCoolingDown() && upgradeProgress >= 2 || player.GetComponent<Player>()._isShieldActive)
         {
-            imageShield.color = Color.yellow;
+            imageShield.sprite = inCooldownSprite;
         }
         else if (!player.GetComponent<Player>().shieldCooldown.IsCoolingDown() && upgradeProgress >= 2)
         {
-            imageShield.color = Color.green;
+            imageShield.sprite = enabledSprite;
         }
     }
     public void IncreaseLevel()

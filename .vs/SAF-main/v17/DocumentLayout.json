@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\player\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\general\\mappercentage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\mappercentage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\player\\pinguinanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pinguinanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\wtf\\saf-main\\assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93CF64C-BF54-B157-56A7-37090D99E35C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAMMAAAAAAAAAAADwv9sAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T01:58:40.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\PauseMenu.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\PauseMenu.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T01:14:36.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapPercentage.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\General\\MapPercentage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\MapPercentage.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\General\\MapPercentage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\MapPercentage.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T01:08:39.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\StatusController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\StatusController.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\StatusController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\StatusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T00:33:18.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PinguinAnimator.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PinguinAnimator.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T00:27:38.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShoot.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwCwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T21:04:07.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PowerUps.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PowerUps.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PowerUps.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\WTF\\SAF-main\\Assets\\Scripts\\Player\\PowerUps.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PowerUps.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowEsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T20:58:05.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

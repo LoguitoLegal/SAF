@@ -6,9 +6,8 @@ using UnityEngine.UI;
 public class StatusController : MonoBehaviour
 {
     public Image Image;
-    public Sprite statusGood;
-    public Sprite statusMid;
-    public Sprite statusBad;
+
+    public PinguinAnimator pinguinAnim;
 
     public GameObject player;
 
@@ -16,15 +15,24 @@ public class StatusController : MonoBehaviour
     {
         if (player.GetComponent<Player>().healthPoints <= 40)
         {
-            Image.sprite = statusBad;
+            pinguinAnim.isGood = false;
+            pinguinAnim.isMedium = false;
+            pinguinAnim.isBad = true;
+
         }
         else if (player.GetComponent<Player>().healthPoints <= 60)
         {
-            Image.sprite = statusMid;
+            pinguinAnim.isGood = false;
+            pinguinAnim.isMedium = true;
+            pinguinAnim.isBad = false;
+
         }
         else
         {
-            Image.sprite = statusGood;
+            pinguinAnim.isGood = true;
+            pinguinAnim.isMedium = false;
+            pinguinAnim.isBad = false;
+
         }
     }
 }

@@ -6,8 +6,17 @@ public class DroneLaser : MonoBehaviour
 {
     [SerializeField] private float growthSpeed;
     [SerializeField] private float maxLaserSize;
+    public bool isBossDrone = false;
 
     private float currentLaserSize = 0f;
+
+    private void Start()
+    {
+        if (!isBossDrone)
+        {
+            GetComponent<Parallax>().enabled = true;
+        }
+    }
 
     void Update()
     {
@@ -17,7 +26,7 @@ public class DroneLaser : MonoBehaviour
 
         // Atualiza a escala local do laser apenas na direção Z
         Vector3 newLocalScale = transform.localScale;
-        newLocalScale.z = currentLaserSize;
+        newLocalScale.x = currentLaserSize;
         transform.localScale = newLocalScale;
     }
 }

@@ -3,60 +3,60 @@
   "WorkspaceRootPath": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\mappercentage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\mappercentage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\bosses\\militarybuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bosses\\militarybuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dronecaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dronecaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\general\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dronelaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dronelaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\helicoptershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\helicoptershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\antiaircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\antiaircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\player\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\powerups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\movements\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\movements\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\dualshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\dualshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|d:\\escola\\puc\\trabalho interdisciplinar\\1- saf\\saf\\assets\\scripts\\enemies\\movements\\lmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\movements\\lmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\player\\damageflash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\damageflash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\missile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\missile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\bosses\\bombplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bosses\\bombplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0748CD-89A2-4600-D24C-C15FC80E543E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,58 +66,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MapPercentage.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\MapPercentage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\MapPercentage.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\MapPercentage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\General\\MapPercentage.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wBAAAAA0AAAA",
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\SoundManager.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\SoundManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAMwCAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:40:48.719Z",
+              "WhenOpened": "2024-06-19T23:26:30.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\PauseMenu.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\General\\PauseMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "DocumentIndex": 5,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Projectile.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\Projectile.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:23:51.033Z",
+              "WhenOpened": "2024-06-19T23:07:48.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Helicopter.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Movements\\Helicopter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Movements\\Helicopter.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Movements\\Helicopter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Movements\\Helicopter.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAcwKgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:58:46.06Z",
+              "WhenOpened": "2024-06-19T23:06:21.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LMovement.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Movements\\LMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Movements\\LMovement.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Movements\\LMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Movements\\LMovement.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowBcAAAAJAAAA",
+              "DocumentIndex": 7,
+              "Title": "DroneLaser.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\DroneLaser.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:48:30.288Z",
+              "WhenOpened": "2024-06-19T22:56:42.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DroneCaller.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\DroneCaller.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T22:22:47.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MilitaryBuilding.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Bosses\\MilitaryBuilding.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA5wCgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:03:16.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AntiAircraft.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\AntiAircraft.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T21:41:59.727Z",
               "EditorCaption": ""
             },
             {
@@ -128,122 +167,81 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
               "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwC4AAAAFAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:14:58.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:30:52.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Shield.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Shield.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Shield.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Shield.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Shield.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwD0AAAAFAAAA",
+              "DocumentIndex": 11,
+              "Title": "DamageFlash.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\DamageFlash.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\DamageFlash.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\DamageFlash.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwCwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T22:52:28.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T21:28:07.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKMAAAAJAAAA",
+              "DocumentIndex": 9,
+              "Title": "DualShoot.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\DualShoot.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:54:23.84Z",
+              "WhenOpened": "2024-06-19T20:41:56.989Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PowerUps.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\PowerUps.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PowerUps.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\PowerUps.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PowerUps.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA5wCsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:55:19.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Missile.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Missile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Missile.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\Missile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\General\\Missile.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAA9wDkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T20:45:57.697Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HelicopterShoot.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\HelicopterShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\HelicopterShoot.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\HelicopterShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\HelicopterShoot.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T21:05:24.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SoundManager.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\SoundManager.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\SoundManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\General\\SoundManager.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwFoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T21:34:09.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Drone.cs",
               "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Drone.cs",
               "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Drone.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Drone.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAADwvyIAAABMAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T19:06:33.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerShoot.cs",
-              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAgwGAAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:18:56.251Z",
+              "WhenOpened": "2024-06-19T19:39:56.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\PauseMenu.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\PauseMenu.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T19:32:11.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BombPlane.cs",
+              "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Bosses\\BombPlane.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAowHAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T13:42:45.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\GameManager.cs",
               "ToolTip": "D:\\Escola\\PUC\\Trabalho Interdisciplinar\\1- SAF\\SAF\\Assets\\Scripts\\General\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\GameManager.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCQAAAAcAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE0AAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T20:43:14.319Z",
               "EditorCaption": ""

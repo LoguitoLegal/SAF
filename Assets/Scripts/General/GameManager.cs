@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 {
     [Header("EndScreen")]
     private GameObject player;
-    public BombPlane Boss1;
     public GameObject endPanel;
     public GameObject victoryPanel;
     public GameObject defeatPanel;
@@ -29,6 +28,7 @@ public class GameManager : MonoBehaviour
     public int bossMusicID;
     public float transitionDuration = 4f;
     public BombPlane bombPlane;
+    public MilitaryBuilding militaryBuilding;
     private bool isTransitioning = false;
 
     void Start()
@@ -47,10 +47,22 @@ public class GameManager : MonoBehaviour
             StartCoroutine(TransitionToBossMusic());
         }
 
-        if (Camera.main.transform.position.z >= 60.77 && !bombPlane.startBattle)
+        if (currentLevel.buildIndex == 1)
         {
-            bombPlane.startBattle = true;
+            if (Camera.main.transform.position.z >= 60.77 && !bombPlane.startBattle)
+            {
+                bombPlane.startBattle = true;
+            }
         }
+        else if (currentLevel.buildIndex == 2)
+        {
+            if (Camera.main.transform.position.z >= 50.45 && !militaryBuilding.startBattle)
+            {
+                militaryBuilding.startBattle = true;
+                Camera.main.GetComponent<Parallax>().enabled = false;
+            }
+        }
+
         if (VerifyWin())
         {
             OnWin();
@@ -63,7 +75,7 @@ public class GameManager : MonoBehaviour
 
     private bool VerifyWin()
     {
-        if (Boss1 != null && Boss1.battleEnd)
+        if (bombPlane != null && bombPlane.battleEnd || militaryBuilding == null && SceneManager.GetActiveScene().buildIndex == 2)
         {
             return true;
         }
