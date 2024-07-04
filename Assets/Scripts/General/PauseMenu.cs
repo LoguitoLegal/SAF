@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenu, mainMenu;
     public GameManager gameManager;
     public GameObject[] subMenus;
+    public GameObject tutorial;
     public static bool isPaused;
     private bool wentByCheat = false;
 
@@ -15,9 +16,13 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (isPaused && !tutorial.activeSelf)
             {
                 ResumeGame();
+            }
+            else if (isPaused && tutorial.activeSelf)
+            {
+                tutorial.SetActive(false);
             }
             else
             {

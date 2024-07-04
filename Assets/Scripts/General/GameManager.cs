@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
         if (Camera.main.transform.position.z >= bossPoint.position.z && !reachedBossPoint && !isTransitioning)
         {
             Debug.Log("Chegou no BossPoint");

@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Enemies\Bosses\MilitaryBuilding.cs" />
     <Compile Include="Assets\Scripts\Enemies\Helice.cs" />
     <Compile Include="Assets\Scripts\General\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\CutsceneController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Drone.cs" />
     <Compile Include="Assets\Scripts\General\MapPercentage.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\Helicopter.cs" />
