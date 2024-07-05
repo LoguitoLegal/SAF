@@ -217,7 +217,7 @@ public class Player : MonoBehaviour
 
     public void RefreshStatus()
     {
-        this.health.text = healthPoints.ToString();
+        this.health.text = healthPoints.ToString() + "%";
         this.levelProgress.text = points.ToString();
         pointsBar.SetCurrentFill(this.points);
     }

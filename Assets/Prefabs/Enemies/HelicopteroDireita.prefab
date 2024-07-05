@@ -314,6 +314,7 @@ MonoBehaviour:
   healthPoints: 8
   pointsToPlayer: 10
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  explosion: {fileID: 6040016029402503884, guid: 0c9750cf30d4f914780c443edaa64bba, type: 3}
   tookDamage: 0
 --- !u!114 &2673352162871932284
 MonoBehaviour:

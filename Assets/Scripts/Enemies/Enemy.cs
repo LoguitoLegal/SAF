@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public int healthPoints = 10;
     public int pointsToPlayer = 5;
     public GameObject heal;
+    public GameObject explosion;
     public bool tookDamage;
     private Player player;
     private void Start()
@@ -33,6 +34,8 @@ public class Enemy : MonoBehaviour
             player.points += this.pointsToPlayer;
             Chance();
             SoundManager.Instance.TocarSFX(4);
+            GameObject boom = Instantiate(explosion, transform.position, explosion.transform.rotation);
+            Destroy(boom, 0.85f);
             Destroy(gameObject);
         }
     }
@@ -40,7 +43,7 @@ public class Enemy : MonoBehaviour
     private void Chance()
     {
         int chance = Random.Range(0, 100);
-        if (chance < 23)
+        if (chance < 15)
         {
             Instantiate(heal, transform.position, Quaternion.identity);
         }

@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: 784a3f85aff6f5947981900f9ee6f2ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235ec495a267aea4a9fd1b2dcdc38abe
+      internalID: -1389756498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28460b60bdbe1f7458403cf6d77b3f2b
+      internalID: -1882199339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b323e3f13105d894285a21782de7662d
+      internalID: 1651809332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6539593513ee0e4ab05c87b6696129a
+      internalID: 1672302747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eadd7e37e8b5c46bc56c4a3e793f2f
+      internalID: -1529126784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a99977ef76bfb43a606396ed2b632e
+      internalID: -1214297094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f6fcc0fcb03cb4a981fd60bfa946f3
+      internalID: -391133971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ebdae62dbe108488eacf1b402cb353
+      internalID: 1039038189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_8
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b964f0d6658c604caaa57415a497808
+      internalID: -702205704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddff7112b27760746a40717a49c583fa
+      internalID: 1539900616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_10
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0eaf893dd35c469aa6c8ec688d056
+      internalID: 1717241338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_11
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e30ffb2e20a9714ba5164fff245129e
+      internalID: -1971664781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62db1c3fd2186b640af66eb3616dfda1
+      internalID: 1368861069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58ee568c38540147a5b75984e2786b6
+      internalID: -1834847371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1abbbe50483bd242b1953c1879921e6
+      internalID: 1511978937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_15
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714bcc2e82233b4383f24ccadf70e09
+      internalID: 42097792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_16
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b773c9a7d4c83d40b718c8866e10495
+      internalID: 578348172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_17
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ec439d99e63e149bbccfdfd370bacf
+      internalID: -1556969968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee90af4c5e629040bc80a6bfbf811e5
+      internalID: 1809938518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d186be20d2fe847bd48c388f38ca21
+      internalID: 1484520891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52240dd298e659469355eae4ed01e9d
+      internalID: 635390484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_21
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f07ce84f6300b4e93beeee43d61363
+      internalID: -234579470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_22
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e421e89e69e3e2449240f9cfec31ad8
+      internalID: 1970783096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_23
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53491d5eae08a7f45aae8f85b7a378a3
+      internalID: 1933329033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405434e69e58d444da4887438cfd532e
+      internalID: 2090917068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430cf7989c7fd8a48b36c1c6d7b0b1b1
+      internalID: 1584358912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_26
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974460904d3cfd84dbf090f0634cb079
+      internalID: 1435819702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e13ccae60a0b54b8d22eeea8ff68bf
+      internalID: -2000594593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a587f0c7d9210984a9b060c2565fc608
+      internalID: 513545952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaCheiaPinguinSprite_29
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bb2fe61a3068944a6c963b1a037381
+      internalID: -43474095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f513595bb545464797cfed6663a49db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vidaCheiaPinguinSprite_0: -1389756498
+      vidaCheiaPinguinSprite_1: -1882199339
+      vidaCheiaPinguinSprite_10: 1717241338
+      vidaCheiaPinguinSprite_11: -1971664781
+      vidaCheiaPinguinSprite_12: 1368861069
+      vidaCheiaPinguinSprite_13: -1834847371
+      vidaCheiaPinguinSprite_14: 1511978937
+      vidaCheiaPinguinSprite_15: 42097792
+      vidaCheiaPinguinSprite_16: 578348172
+      vidaCheiaPinguinSprite_17: -1556969968
+      vidaCheiaPinguinSprite_18: 1809938518
+      vidaCheiaPinguinSprite_19: 1484520891
+      vidaCheiaPinguinSprite_2: 1651809332
+      vidaCheiaPinguinSprite_20: 635390484
+      vidaCheiaPinguinSprite_21: -234579470
+      vidaCheiaPinguinSprite_22: 1970783096
+      vidaCheiaPinguinSprite_23: 1933329033
+      vidaCheiaPinguinSprite_24: 2090917068
+      vidaCheiaPinguinSprite_25: 1584358912
+      vidaCheiaPinguinSprite_26: 1435819702
+      vidaCheiaPinguinSprite_27: -2000594593
+      vidaCheiaPinguinSprite_28: 513545952
+      vidaCheiaPinguinSprite_29: -43474095
+      vidaCheiaPinguinSprite_3: 1672302747
+      vidaCheiaPinguinSprite_4: -1529126784
+      vidaCheiaPinguinSprite_5: -1214297094
+      vidaCheiaPinguinSprite_6: -391133971
+      vidaCheiaPinguinSprite_7: 1039038189
+      vidaCheiaPinguinSprite_8: -702205704
+      vidaCheiaPinguinSprite_9: 1539900616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

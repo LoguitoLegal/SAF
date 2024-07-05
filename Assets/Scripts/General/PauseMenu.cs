@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu, mainMenu;
     public GameManager gameManager;
     public GameObject[] subMenus;
+    public GameObject ajuda;
     public static bool isPaused;
     private bool wentByCheat = false;
 
@@ -15,7 +18,12 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (isPaused && ajuda.activeSelf)
+            {
+                ajuda.SetActive(false);
+                OnButtonClick();
+            }
+            else if (isPaused && !ajuda.activeSelf)
             {
                 ResumeGame();
             }
@@ -97,6 +105,10 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    public void DeactivateButton()
+    {
+        EventSystem.current.SetSelectedGameObject(null); // Desseleciona o botão
+    }
     public void UnlockAll()
     {
         GameObject.Find("Player").GetComponent<Player>().points = 9999;

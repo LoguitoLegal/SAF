@@ -6,6 +6,7 @@ public class Missile : MonoBehaviour
 {
     public GameObject target;
     public GameObject lockAim;
+    public GameObject explosion;
     public bool canFollow = false;
     public float speed;
     public float rotateSpeed;
@@ -87,6 +88,8 @@ public class Missile : MonoBehaviour
             //Play Explosion Effect before Destroy
             //lockAim.SetActive(false);
             SoundManager.Instance.TocarSFX(9);
+            GameObject boom = Instantiate(explosion, transform.position, explosion.transform.rotation);
+            Destroy(boom, 0.85f);
             Destroy(gameObject);
         }
     }

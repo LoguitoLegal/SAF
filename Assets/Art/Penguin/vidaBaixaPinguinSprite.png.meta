@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: a11762cdd50f2d4448f4976b14109b21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd8a29f4aeb1964d8f64809cd3a93e2
+      internalID: -913302638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc97b1c84bfd46418ad3a113030efbc
+      internalID: 1881414186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e87289c6edc771499d1a66276bd72f8
+      internalID: 2072634646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2a46dbe589bed4ca3cfa8178e2d4b7
+      internalID: 740255456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf23f96263d35744899caf240d8940c5
+      internalID: 774436825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4330
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a524203807844e488e1c56cce894bf5
+      internalID: -1509654063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a180692e61fd46b71e99e37ae14c3
+      internalID: -653153368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4b631f14b4ed439dbb9be3d9ecd0b
+      internalID: -1518988680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_8
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fa1a2d252d3c409f8504256e9490e
+      internalID: 1673507940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c4a4d4b3a1e4c46807114b416efce2
+      internalID: 656316719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_10
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde913c73b0a88b41b0ce4ea9b1ef997
+      internalID: 1953102116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_11
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3250
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1946b27ac2cf841ac5556c08766ddb
+      internalID: 8388787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f519415399620df459caf8d58b8b2256
+      internalID: 1242985683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc02680a13307fd46b330ab1573ddc30
+      internalID: 561366629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c6c0642f3685841b219468e5c8e641
+      internalID: 516601029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_15
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48d27441870abb4f850b01c2402f5cb
+      internalID: -828066698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_16
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c914a5c123d5744b3475aa10f3c3ca
+      internalID: -1800044349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_17
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2170
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6603dc67d895c5c45944c5cb0f5d1b9d
+      internalID: -1270508582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199a1f613ad0f454ba80248d54f47dec
+      internalID: -209470548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cff6b238381c754ab69e4712c44a300
+      internalID: -547647731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed8b44975af513428a8c8f0a6931a88
+      internalID: -797723779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_21
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c82a741b644024e8420b811229f21a
+      internalID: 1817875759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_22
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e14dfef6dec344afaad33ee0dd004
+      internalID: -886536931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_23
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1090
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd1b6eac668b5429eadd4e19d14ffc
+      internalID: -641617798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5f59dce7be5a84f8319f570396fa77
+      internalID: -406202089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f02984abdb62c489e20293af6830b7
+      internalID: 1309287724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_26
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9e6300130d0414b838872f881d4194
+      internalID: -1414157334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a005c9b4c4a5a4caa2855256ec41b2
+      internalID: -915684081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4927ea2d59752704baa8fde4711af5b1
+      internalID: 913437801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vidaBaixaPinguinSprite_29
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4ef7ed62d2c60418a984920ad83525
+      internalID: 116206882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 31c71ffb4d4c59b45a9206846924fa67
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vidaBaixaPinguinSprite_0: -913302638
+      vidaBaixaPinguinSprite_1: 1881414186
+      vidaBaixaPinguinSprite_10: 1953102116
+      vidaBaixaPinguinSprite_11: 8388787
+      vidaBaixaPinguinSprite_12: 1242985683
+      vidaBaixaPinguinSprite_13: 561366629
+      vidaBaixaPinguinSprite_14: 516601029
+      vidaBaixaPinguinSprite_15: -828066698
+      vidaBaixaPinguinSprite_16: -1800044349
+      vidaBaixaPinguinSprite_17: -1270508582
+      vidaBaixaPinguinSprite_18: -209470548
+      vidaBaixaPinguinSprite_19: -547647731
+      vidaBaixaPinguinSprite_2: 2072634646
+      vidaBaixaPinguinSprite_20: -797723779
+      vidaBaixaPinguinSprite_21: 1817875759
+      vidaBaixaPinguinSprite_22: -886536931
+      vidaBaixaPinguinSprite_23: -641617798
+      vidaBaixaPinguinSprite_24: -406202089
+      vidaBaixaPinguinSprite_25: 1309287724
+      vidaBaixaPinguinSprite_26: -1414157334
+      vidaBaixaPinguinSprite_27: -915684081
+      vidaBaixaPinguinSprite_28: 913437801
+      vidaBaixaPinguinSprite_29: 116206882
+      vidaBaixaPinguinSprite_3: 740255456
+      vidaBaixaPinguinSprite_4: 774436825
+      vidaBaixaPinguinSprite_5: -1509654063
+      vidaBaixaPinguinSprite_6: -653153368
+      vidaBaixaPinguinSprite_7: -1518988680
+      vidaBaixaPinguinSprite_8: 1673507940
+      vidaBaixaPinguinSprite_9: 656316719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

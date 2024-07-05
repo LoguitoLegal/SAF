@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Enemies\Movements\LMovement.cs" />
     <Compile Include="Assets\Scripts\Player\LockAim.cs" />
+    <Compile Include="Assets\Scripts\Player\PenguinAnimation.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyShoot.cs" />
     <Compile Include="Assets\Scripts\Enemies\DroneCaller.cs" />
     <Compile Include="Assets\Scripts\Enemies\DualShoot.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Scripts\General\Projectile.cs" />
     <Compile Include="Assets\Scripts\General\Startmenu.cs" />
     <Compile Include="Assets\Scripts\General\Missile.cs" />
+    <Compile Include="Assets\Scripts\General\Credits.cs" />
     <Compile Include="Assets\Scripts\Enemies\DroneLaser.cs" />
     <Compile Include="Assets\Scripts\General\DeleteWhenLeftBehind.cs" />
     <Compile Include="Assets\Scripts\Map\MapMove.cs" />
@@ -93,6 +95,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\General\Parallax.cs" />
     <Compile Include="Assets\Scripts\Enemies\HelicopterShoot.cs" />
+    <Compile Include="Assets\Scripts\General\CutsceneController.cs" />
     <Compile Include="Assets\Scripts\General\Cooldown.cs" />
     <Compile Include="Assets\Scripts\General\StayWithCamera.cs" />
   </ItemGroup>
@@ -1056,6 +1059,10 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">

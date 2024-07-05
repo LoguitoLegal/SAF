@@ -6,25 +6,22 @@ using UnityEngine.UI;
 public class StatusController : MonoBehaviour
 {
     public Image Image;
-    public Sprite statusGood;
-    public Sprite statusMid;
-    public Sprite statusBad;
-
+    public PenguinAnimation penguinAnimation;
     public GameObject player;
 
     void Update()
     {
         if (player.GetComponent<Player>().healthPoints <= 40)
         {
-            Image.sprite = statusBad;
+            penguinAnimation.estadoAtual = PenguinAnimation.Estado.Bad;
         }
         else if (player.GetComponent<Player>().healthPoints <= 60)
         {
-            Image.sprite = statusMid;
+            penguinAnimation.estadoAtual = PenguinAnimation.Estado.Medium;
         }
         else
         {
-            Image.sprite = statusGood;
+            penguinAnimation.estadoAtual = PenguinAnimation.Estado.Good;
         }
     }
 }

@@ -379,6 +379,7 @@ MonoBehaviour:
   healthPoints: 4
   pointsToPlayer: 10
   heal: {fileID: 1292709367050152266, guid: fe5945df126b7c74098bfc2efd125ee0, type: 3}
+  explosion: {fileID: 6040016029402503884, guid: 0c9750cf30d4f914780c443edaa64bba, type: 3}
   tookDamage: 0
 --- !u!114 &3348983042050588742
 MonoBehaviour:
@@ -395,6 +396,8 @@ MonoBehaviour:
   speed: 0.26
   rotationSpeed: 2.21
   missileStartForce: 1
+  isBossGun: 0
+  canShoot: 1
   shootCooldown:
     cooldownTime: 3
   shootPoint: {fileID: 746225220463477681}

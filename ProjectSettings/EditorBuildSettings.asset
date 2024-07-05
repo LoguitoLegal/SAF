@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: a49178a156db8e4498c87b7734bf4048
+  - enabled: 1
+    path: Assets/Scenes/Radio1.unity
+    guid: 03ce5ee9feb44654eb867dfb0bf1cc27
+  - enabled: 1
+    path: Assets/Scenes/Radio2.unity
+    guid: b747129020aa10243a53d702e3fabec1
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 11ec39da2e1e1004b86aef6f130d3a6f
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: a15ed467a2bc9c44a89efc39baac97cc
   m_configObjects: {}

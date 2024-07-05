@@ -13,6 +13,7 @@ public class PlayerShoot : MonoBehaviour
     public int shootLevel;
     public float spreadAngle = 15f;
     public Image shootImage;
+    public Sprite[] sprites;
 
     [Header("Transforms")]
     public Transform ShootPoint;
@@ -37,10 +38,10 @@ public class PlayerShoot : MonoBehaviour
 
             if (shootOn)
             {
-                shootImage.color = Color.green;
+                shootImage.sprite = sprites[1];
             } else
             {
-                shootImage.color = Color.red;
+                shootImage.sprite = sprites[0];
             }
         }
 
